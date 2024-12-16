@@ -1,0 +1,1773 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Tree Removal, Trimming, and Stump Grinding Services">
+    <title>Tree Care Services - Professional Tree Removal & Trimming</title>
+    <style>
+        /* General styles */
+
+        body {
+              font-family: Copperplate, Papyrus, fantasy;}
+        h1 {
+          font-family: Copperplate, Papyrus, fantasy; }
+        p {
+            font-family: Copperplate, Papyrus, fantasy;
+        }
+
+
+        body1 {
+         font-family: 'Optima', 'Segoe', 'Candara', sans-serif;}
+        h1 {
+           font-family: 'Optima', 'Segoe', 'Candara', sans-serif;
+        }
+
+        p {
+            font-family: 'Optima', 'Segoe', 'Candara', sans-serif;
+        }
+
+        body2 {
+           font-family: 'Optima', 'Segoe', 'Candara', sans-serif;    }
+        p {
+           font-family: 'Optima', 'Segoe', 'Candara', sans-serif; }
+
+        h1, h2, h3 {
+          font-family: 'Optima', 'Segoe', 'Candara', sans-serif;
+        }
+
+        
+                /* Styling for the logo container */
+        .logo-container {
+            display: inline-block;
+            background-color: #000000; /* Apply your desired color to the background */
+            padding: 20px;  /* Optional padding to control spacing */
+            border-radius: 10px; /* Optional rounded corners */
+        }
+
+        .logo-container img {
+            width: 150px;  /* Adjust logo size */
+            height: auto;
+            display: block; /* Prevents extra space below the image */
+        }
+        
+        body {
+            font-family: Montserrat, sans-serif;
+            margin: 10;
+            padding:1px;
+            background-color: white;
+        }
+
+
+        body1 {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh;
+            background-color: #ffffff;
+            color: #000000;
+            padding: 0px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body2 {
+            font-family: 'Roboto', sans-serif;
+            background-color: #ff8f5c;
+            color: #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 0;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+                /* General Styling */
+        body5 {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #FF570C;
+            color: #000;
+            line-height: 1.6;
+        }
+
+        p { 
+   			color: white;
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+            
+            }
+            
+         h4 {
+        	color: white;
+            font-size: 22px;
+            text-align: center;
+            float:right;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h5{
+            color: #000000;
+            font-size: 22px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h6{
+            color: #000000;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 20px;
+        }
+        
+        
+        
+        /* Styling for the header */
+        .top-header {
+            background-color: #1197CD; /* Light background color */
+            text-align: center; /* Centered text */
+            padding: 15px 0; /* Padding for spacing */
+            font-size: 14px; /* Smaller font size */
+            color: #000000; /* Text color */
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Style for the email and phone numbers */
+        .top-header a {
+            color: #000000;
+            text-decoration: none; /* Remove underline */
+            margin: 0 10px; /* Space between email and phone number */
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .top-header a:hover {
+            text-decoration: underline; /* Underline on hover */
+            font-family: 'Poppins', sans-serif;
+            color: #ff570c;
+        }
+        
+
+
+        header {
+            display: center;
+            justify-content: center;  /* Center the logo */
+            align-items: center;      /* Vertically center the content */
+            position: relative;       /* For absolute positioning of email and phone */
+            background-color: #ffffff;   /* Dark background */
+            color: black;
+        }
+                                
+        header h1 {
+            padding: 0;
+            margin: 0;
+            font-size: 18px;
+
+        h1 {
+            border-bottom: 0px solid #FF6A13;                        the header */
+            padding-bottom: 0px; /* Adds space between the text and the line      */ }
+             
+        }
+         
+       .hero {
+            position: relative;
+            height: 950px;
+            background: url('https://i.ibb.co/p1NrkJL/IMG-5446.jpg') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            text-align: center;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        .hero::before {
+             content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, .3); /* Dark overlay */
+        }
+
+        .hero-content {
+            position: relative;
+            max-width: 800px;
+            animation: slideUp 2s ease-in-out;
+            z-index: 2;
+            font-size: 22px;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            margin: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 0.15em solid #1197CD;
+            animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin: 20px 0;
+            animation: fadeIn 4s ease-in-out;
+        }
+
+        .hero button {
+            background-color: #ff570c;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .hero button:hover {
+            background-color: #ff4757;
+        }
+
+        @keyframes fadeIn {
+            50% { opacity: 0; }
+            10% { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            0% { transform: translateY(50px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: #ffffff; }
+        }
+        .cta-button:hover {
+            background-color: #FF7A5C;
+        }
+
+     /* Full Width Service Section */
+    .service-section {
+      width: 100%;
+      padding: 50px 5vw;
+      background-color: #ffffff    ;
+      border-top: 3px solid #FF570C;
+      border-bottom: 0px solid #FF570C;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      font-size: 16px;
+    }
+
+    /* Header Styling */
+    .service-header {
+      margin-bottom: 60px;
+      animation: fadeIn 2s forwards;
+    }
+
+    .service-header h2 {
+      font-size: 32px;
+      font-weight: 600;
+      color: #000000;
+      margin-bottom: 20px;
+      animation: slideIn 1.5s ease-out forwards;
+      font-family: 'Oswald', sans-serif;
+      text-align: center;
+    }
+
+    .service-header p {
+      text-align: right;
+      font-size: 24px;
+      color: #000000;
+      margin-bottom: 40px;
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+    }
+
+    /* Service Item Styling */
+    .service-item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 40px;
+      padding: 35px;
+      border: 3px solid #000000;
+      position: relative;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      opacity: 0;
+      animation: fadeInUp 1s ease-out forwards;
+      border-radius: 15px;
+    }
+
+    .service-item:hover {
+      transform: translateY(-10px);
+    }
+
+    .service-item img {
+      width: 100%;
+      max-width: 500px;
+      max-height: 330px;
+      height: auto;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    border-radius: 15px;
+    }
+
+    .service-item img:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    .service-item .description {
+      flex: 1;
+      padding: 20px;
+      color: #000000;
+    }
+
+    .service-item h3 {
+      font-size: 2.2em;
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: #000000;
+      animation: textSlideIn 1s ease-out forwards;
+    }
+
+    .service-item p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #000000;
+      animation: textSlideIn 1.2s ease-out forwards;
+    }
+
+    /* Background Color Variations for Each Service */
+    .service-item:nth-child(1) {
+      background-color: #FF570C;
+    }
+
+    .service-item:nth-child(2) {
+      background-color: #FF570C;
+    }
+
+    .service-item:nth-child(3) {
+      background-color: #FF570C;
+    }
+
+    .service-item:nth-child(4) {
+      background-color: #FF570C;
+    }
+
+    .service-item:nth-child(5) {
+      background-color: #FF570C;
+    }
+
+    .service-item:nth-child(6) {
+      background-color: #FF570C;
+    }
+
+    .service-item:nth-child(7) {
+      background-color: #FF570C;
+    }
+
+    .service-item:nth-child(8) {
+      background-color: #FF570C;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes textSlideIn {
+      from {
+        transform: translateY(20px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .service-header h2 {
+        font-size: 2.5em;
+      }
+
+      .service-header p {
+        font-size: 1em;
+      }
+
+      .service-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 25px;
+        margin: 20px 0;
+      }
+
+      .service-item img {
+        max-width: 80%;
+        margin-bottom: 20px;
+      }
+
+      .service-item .description {
+        padding: 10px;
+      }
+
+      .service-item h3 {
+        font-size: 1.8em;
+      }
+
+      .service-item p {
+        font-size: 1em;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .service-header h2 {
+        font-size: 2em;
+      }
+
+      .service-header p {
+        font-size: 0.9em;
+      }
+
+      .service-item h3 {
+        font-size: 1.6em;
+      }
+
+      .service-item p {
+        font-size: 0.9em;
+      }
+
+      .service-item img {
+        max-width: 90%;
+      }
+
+      .service-item .description {
+        padding: 8px;
+      }
+    }
+
+        .contact-section {
+            background-color: #000000;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            margin-bottom: 10px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .contact-form button {
+            background-color: #FF6A13;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #000000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Header and Navigation Styling */
+        header4 {
+            background-color: #FF570C;
+            padding: 20px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+
+
+
+ /* General Reset */
+       
+
+        /* Sticky Header Styling */
+            .top-header {
+            position: fixed; /* Fixes the header to the top */
+            top: 0; /* Position it at the top of the page */
+            left: 0;
+            width: 100%; /* Full-width */
+            background-color: #F7F7F7;
+            color: white;
+            padding: 15px 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000; /* Keeps header above other content */
+        }
+
+
+        /* Centered Navigation */
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Navigation Menu */
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 10px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffffff
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        /* Dropdown Menu */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #FF570C;
+            min-width: 150px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 10px 15px;
+            display: block;
+            text-decoration: none;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #FF7A5C;
+        }
+
+        /* Show dropdown on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        /* About section */
+        .about-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            background-color: #FF570C;
+            width: 100%;
+        }
+
+        /* Text content */
+        .about-text {
+            max-width: 650px;
+            padding: 20px;
+        }
+
+        .about-text h1 {
+            font-size: 2.5em;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+
+        .about-text p {
+            font-size: 24px;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+
+        /* Icon list */
+        .icon-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .icon-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .icon-item img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .icon-item span {
+            font-size: 1.0em;
+            color: #000000;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        /* Underline effect on hover */
+        .icon-item:hover span {
+            color: #ffffff;
+        }
+
+        /* Image styling */
+        .about-image {
+            max-width: 650px;
+            width: 100%;
+            height: 440px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Responsive design */
+        @media (max-width: 1024px) {
+            .about-section {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .about-text, .about-image {
+                max-width: 100%;
+            }
+        }
+
+/* Section Styling */
+        .why-us-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 80px 65px;
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+            background-color: #ffffff;
+        }
+
+        /* Image Styling */
+        .why-us-image {
+            max-width: 700px;
+            width: 100%;
+            height: 500px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            animation: slideInLeft 3.5s ease forwards;
+        }
+
+        /* Text Content */
+        .why-us-content {
+            max-width: 600px;
+            padding-left: 10px;
+            animation: slideInRight 3.5s ease forwards;
+        }
+
+        .why-us-content h2 {
+            font-size: 36px;
+            color: #000000;
+            margin-bottom: 20px;
+            animation: fadeIn 3.5s ease forwards;
+        }
+
+        .why-us-content p {
+            font-size: 23px;
+            color: #000000;
+            margin-bottom: 30px;
+            animation: fadeIn 3.5s ease forwards 1.3s;
+        }
+
+        /* Icon List */
+        .icon-list1 {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .icon-item1 {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            animation: fadeIn 3.5s ease forwards 1.5s;
+        }
+
+        .icon-item1 img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .icon-item1 span {
+            font-size: 24px;
+            font-weight: bold;
+            color: #000000;
+        }
+
+        /* Contact Button */
+        .contact-button {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #FF570C;
+            color: #ffffff;
+            font-size: 1em;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.5s ease;
+            animation: fadeIn 3.5s ease forwards 1.8s;
+        }
+
+        .contact-button:hover {
+            background-color: #e64a0a;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideInLeft {
+            from { transform: translateX(-50px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        @keyframes slideInRight {
+            from { transform: translateX(50px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .why-us-section {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .why-us-image, .why-us-content {
+                max-width: 100%;
+                padding-left: 0;
+            }
+
+            .icon-list1 {
+                align-items: center;
+            }
+        }
+
+
+
+
+
+
+
+.gallery-section {
+            background-color: #FF570C; /* Background color for the section */
+            padding: 40px 0; /* Padding on top and bottom */
+            border-radius: 15px;
+            margin: 40px 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .gallery-section h2 {
+            color: #000000;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+        }
+
+        .gallery-container {
+            position: relative;
+            width: 90%;
+            max-width: 1350px;
+            margin: auto;
+            overflow: hidden;
+            border-radius: 15px;
+        }
+
+        .slider {
+            display: flex;
+            transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+            gap: 20px; /* Space between slides */
+        }
+
+        .slide {
+            min-width: calc(33.33% - 20px); /* Adjust to show multiple images */
+            background-color: #444; /* Image placeholder background */
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.5s, box-shadow 0.5s;
+        }
+
+        .slide img {
+            width: 100%;
+            height: 300px; /* Image height */
+            object-fit: cover;
+            display: block;
+            border-radius: 15px;
+        }
+
+        .navigation {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+            pointer-events: none;
+        }
+
+        .nav-button {
+            background-color: rgba(255, 87, 12, 0.8);
+            border: none;
+            color: #fff;
+            font-size: 2.5rem;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+            pointer-events: all;
+            transition: background-color 0.3s;
+        }
+
+        .nav-button:hover {
+            background-color: rgba(255, 87, 12, 1);
+        }
+
+        /* Dots Navigation */
+        .dots {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 10px;
+        }
+
+        .dot {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .dot.active {
+            background-color: #000000; /* Active dot color */
+        }
+
+.video-section1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px 5vw;
+            gap: 30px;
+            animation: fadeIn 1.5s forwards;
+            background-color: #FF570C;
+        }
+
+        .text-content1 {
+            flex: 1;
+            max-width: 30%; /* Reduced to make more space for the video */
+            padding: 20px;
+            animation: slideInFromLeft 1.5s forwards;
+        }
+
+        .text-content1 h2 {
+            font-size: 2.5rem;
+            color: #000; /* Black text */
+            margin-bottom: 15px;
+            animation: fadeInDown 2s forwards;
+        }
+
+        .text-content1 p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: #000; /* Black text */
+            animation: fadeInUp 2s forwards;
+        }
+
+        .text-content1 .cta-button1 {
+            display: inline-block;
+            background-color: #000000;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: background-color 0.3s, transform 0.3s;
+             flex: 5;
+            animation: pulse 2s infinite;
+        }
+
+        .text-content1 .cta-button1:hover {
+            background-color: #444;
+            transform: translateY(-5px);
+        }
+
+        .video-container1 {
+            flex: 2; /* Increased to occupy more space */
+            max-width: 70%; /* Adjusted for a larger video display */
+            height: 500px; /* Set height for a taller video */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            border-radius: 15px;
+            overflow: hidden;
+            animation: slideInFromRight 1.5s forwards;
+            transition: transform 0.3s;
+        }
+
+        .video-container1:hover {
+            transform: scale(1.02);
+        }
+
+        .video-container1 iframe {
+            width: 100%;
+            height: 100%; /* Ensure the video fills the container height */
+            border: none;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInFromLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInFromRight {
+            0% {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeInDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+    body5 {
+        background-color: #ffffff;
+    }
+
+   .contact-section {
+         font-family: 'Poppins', Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            background: linear-gradient(135deg, #FF570C, #FF570C);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            color: #fff;
+        }
+        .contact-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #fff;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        .contact-section form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #fff;
+            font-weight: 600;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .form-group input:focus, .form-group textarea:focus {
+            outline: none;
+            box-shadow: 0 0 10px rgba(255, 87, 12, 0.8);
+        }
+        .form-group textarea {
+            resize: none;
+            height: 150px;
+        }
+        .form-group button {
+            background-color: #000000;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .form-group button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 30px;
+            color: #fff;
+            font-size: 1.1em;
+        }
+        .contact-info p {
+            margin: 8px 0;
+        }
+        .contact-info a {
+            color: #fff;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .contact-info a:hover {
+            color: #007BFF;
+        }
+
+
+/* Left section: Email */
+        .header-left {
+            position: absolute;
+            left: 10px;  /* Positioned at the far left */
+            top: 40px;   /* Positioned slightly below the top */
+        }
+
+        .header-left a {
+            color: black;
+            text-decoration: none;
+            font-size: 16px;
+            margin-right: 20px;
+        }
+
+        .header-left a:hover {
+            color: #FF8C00; /* Change color on hover */
+        }
+
+        /* Center section: Logo */
+        .header-logo {
+            text-align: center;
+        }
+
+        .header-logo img {
+            width: 230px;  /* Adjust logo size */
+            height: 170px;
+        }
+
+        /* Right section: Phone Number */
+        .header-right {
+            position: absolute;
+            right: 10px; /* Positioned at the far right */
+            top: 10px;   /* Positioned slightly below the top */
+        }
+
+        .header-right a {
+            color: black;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .header-right a:hover {
+            color: #FF8C00; /* Highlight on hover */
+        }
+
+        .phone-icon {
+            margin-right: 8px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;  /* Stack items vertically */
+                text-align: center;
+            }
+
+            .header-left, .header-right {
+                position: relative;  /* Align to center on smaller screens */
+                top: 0;
+                margin-top: 10px;
+            }
+
+            .header-logo {
+                margin-top: 10px;
+            }
+        }
+.review-section {
+        margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://i.ibb.co/ykfM1N2/IMG-8188.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 50px;
+        }
+
+        .review-card {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            width: 300px;
+            margin: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transform: scale(0.9);
+            transition: transform 0.3s, box-shadow 0.3s;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .review-card:hover {
+            transform: scale(1);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        .review-card h3 {
+            margin-top: 0;
+        }
+
+        .review-card .stars {
+            margin: 10px 0;
+        }
+
+        .stars span {
+            color: gold;
+            font-size: 1.5em;
+        }
+
+        .review-card p {
+            line-height: 1.5;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+
+             .map-section {
+            text-align: center;
+            padding-top: 30px;
+            margin: 0px 0;
+            background-color: #FF570C;
+            padding-bottom: 30px;
+        }
+
+        .map-section h2 {
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .map-container {
+            margin: 0 auto;
+            max-width: 800px;
+            height: 450px;
+            border: 2px solid #FF570C;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<!-- Header Section -->
+	<div class="top-header">
+        <a href="mailto:eusebio@blackbeartreeservices.com">Send Email</a> |
+        <a href="tel:+551-804-7603">(551) 804-7603</a>
+    </div>
+
+    <!-- Main content of the page -->
+    <header>
+        <h1></h1>
+    </header>
+
+
+<header>
+    <h1>
+    	<a href="https://www.example.com">
+    
+             <!-- Header Section -->
+    <header>
+       
+
+        <!-- Center Content: Logo -->
+        <div class="header-logo">
+            <div class="content-left">
+            <a href="#">
+                <div style="padding-top: 55px;;">
+                <img src="https://le-cdn.hibuwebsites.com/a53b7bcfc4e244838310e9474ab9b00d/dms3rep/multi/opt/black-bear-tree-services-logo-222w.png" alt="Logo">
+                <div style="padding-bottom: 10px;">
+            </div>
+            </a>
+        </div>
+
+
+    </header>
+            
+               <!-- Header Section -->
+    <header4>
+        <div class="nav-container">
+            <div class="content-right">
+            <!-- Centered Navigation Links -->
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="About-Us.html">About Us</a></li>
+                     <!-- Services Dropdown -->
+                    <li class="dropdown">
+                        <a href="#services">Services</a>
+                        <div class="dropdown-content">
+                            <a href="tree-Removal.html">Tree Removal</a>
+                            <a href="Tree-Trimming.html">Tree Trimming</a>
+                            <a href="Stump-Grinding.html">Stump Grinding</a>
+                            <a href="Emergency.html">Emergency Storm Damage</a>
+                            <a href="firewood.html">FireWood</a>
+                            <a href="Snow-removal.html">Snow Removal</a>
+                            <a href="Landscaping.html">LandScaping Service</a>
+                        </div>
+                    </li> 
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header4>
+
+    <!-- Page content -->
+    <div style="padding:0px;">
+        <h1> </h1>
+        <p> </p>
+    </div>
+           
+            
+       </a>
+    </h1>
+</header>
+
+<!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Expert Tree Service's</h1>
+            <p>Bergen County, NJ</p>
+          <a href="Free-Estimate.html" class="contact-button">Get a Free Estimate</a>
+        </div>
+    </section>
+</section>
+
+<body2>
+
+  <div class="service-section">
+    <!-- Header -->
+    <div class="service-header">
+      <h2>Black Bear Tree Services</h2>
+    </div>
+
+    <!-- Service 1 -->
+    <div class="service-item">
+      <img src="https://i.ibb.co/BnvhPL0/8-C3-F4317-AA27-41-E8-A75-B-900-EBD997-A2-D.jpg" alt="8-C3-F4317-AA27-41-E8-A75-B-900-EBD997-A2-D" width="500" height="300" alt="Web Development">
+      <div class="description">
+        <h3>Tree Removal</h3>
+        <p>Professional tree removal ensures the safety of your property and enhances its overall appearance, preventing potential damage from dead or hazardous trees. Trust our expert team for efficient and careful tree removal services that prioritize your landscape’s beauty and your peace of mind.</p>
+      </div>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="service-item">
+      <img src="https://i.ibb.co/7XQBQfw/IMG-0234.jpg" alt="Mobile App Development">
+      <div class="description">
+        <h3>Tree Trimming</h3>
+        <p>Regular tree trimming not only boosts the health and growth of your trees but also enhances the beauty and safety of your property. Let our skilled team provide precise and professional trimming services that keep your trees vibrant and your home secure.</p>
+      </div>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="service-item">
+      <img src="https://i.ibb.co/WyQrcF4/IMG-9066.jpg" alt="IMG-9066" alt="Digital Marketing">
+      <div class="description">
+        <h3>Stump Grinding</h3>
+        <p>Stump grinding removes unsightly stumps, freeing up space and preventing tripping hazards or pest infestations in your yard. Rely on our expert stump grinding services for a clean, safe, and beautiful landscape without the hassle.</p>
+      </div>
+    </div>
+
+    <!-- Service 4 -->
+    <div class="service-item">
+      <img src="https://i.ibb.co/C5wdFnT/IMG-9720.jpg" alt="UI/UX Design">
+      <div class="description">
+        <h3>Emergency Storm Damage</h3>
+        <p>When unexpected storm damage strikes, fast and reliable cleanup is crucial to restore safety and order to your property. Count on our emergency storm damage services for prompt response and expert care to minimize stress and protect your home.</p>
+      </div>
+    </div>
+
+    <!-- Service 5 -->
+    <div class="service-item">
+      <img src="https://i.ibb.co/2K67NvK/IMG-8358.jpg" alt="IMG-8358" alt="SEO Optimization">
+      <div class="description">
+        <h3>Firewood</h3>
+        <p>High-quality firewood ensures longer, cleaner, and more efficient burns to keep your home warm and cozy. Choose our seasoned firewood for reliable, eco-friendly heating that adds comfort to your home all season long.</p>
+      </div>
+    </div>
+
+    <!-- Service 6 -->
+    <div class="service-item">
+      <img src="https://t3.ftcdn.net/jpg/00/78/43/02/360_F_78430255_NtH01jwji0oI6VpIsVOgJURv30E0oJ42.jpg" alt="Cloud Solutions">
+      <div class="description">
+        <h3>Snow Removal</h3>
+        <p>Timely and professional snow removal keeps your property safe and accessible, preventing accidents and disruptions during winter weather. Trust our efficient snow removal services to clear your paths and driveways quickly, so you can carry on with your day stress-free. </p>
+      </div>
+    </div>
+
+    <!-- Service 7 -->
+    <div class="service-item">
+      <a href="https://ibb.co/tm71q8L"><img src="https://i.ibb.co/X2hG7SY/IMG-5537.jpg" alt="IMG-5537" border="0"></a>
+      <div class="description">
+        <h3>LandScaping Service's</h3>
+        <p>Expert landscaping services transform your outdoor space into a beautiful and functional area that enhances your property's value and appeal. Let our team create and maintain a stunning landscape that reflects your vision and makes your home the envy of the neighborhood.</p>
+      </div>
+    </div>
+
+  </div>
+
+</body2>
+
+<!-- About Us Section -->
+    <section class="about-section" id="about">
+        <!-- Text Content -->
+        <div class="about-text">
+            <h1>About Our Company</h1>
+            <p>We are committed to providing exceptional services with a focus on innovation, sustainability, and integrity. Our dedicated team works tirelessly to bring you the best possible results, ensuring that every project is handled with care and precision.</p>
+            
+            <!-- Icon List -->
+            <div class="icon-list">
+                <div class="icon-item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/9987/9987776.png" alt="Sustainability Icon">
+                    <span>Sustainability</span>
+                </div>
+                <div class="icon-item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/912/912278.png" alt="Innovation Icon">
+                    <span>Innovation</span>
+                </div>
+                <div class="icon-item">
+                    <img src="https://static.thenounproject.com/png/3890938-200.png" alt="Integrity Icon">
+                    <span>Integrity</span>
+                </div>
+                <div class="icon-item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1134/1134184.png" alt="Teamwork Icon">
+                    <span>Teamwork</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image Section -->
+        <img src="https://i.ibb.co/ckjq2Ty/IMG-7991.jpg" alt="About Us" class="about-image">
+    </section>
+
+<!-- Why Us Section -->
+    <section class="why-us-section">
+        <!-- Image Section -->
+        <img src="https://i.ibb.co/3ywxHPK/IMG-8189.jpg" alt="Why Us" class="why-us-image">
+
+        <!-- Text Content -->
+        <div class="why-us-content">
+            <h2>Why Choose Us</h2>
+            <p>We are dedicated to providing exceptional service with a focus on quality, innovation, and customer satisfaction.</p>
+
+            <!-- Icon List -->
+            <div class="icon-list1">
+                <div class="icon-item1">
+                    <img src="https://cdn-icons-png.flaticon.com/512/8555/8555453.png" alt="Experience Icon">
+                    <span>Years of Experience</span>
+                </div>
+                <div class="icon-item1">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-innovation-icon-download-in-svg-png-gif-file-formats--idea-innovate-creative-concept-design-development-icons-2175598.png?f=webp" alt="Innovation Icon">
+                    <span>Innovative Solutions</span>
+                </div>
+                <div class="icon-item1">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4087/4087840.png" alt="Support Icon">
+                    <span>Excellent Support</span>
+                </div>
+                <div class="icon-item1">
+                    <img src="https://cdn0.iconfinder.com/data/icons/shopping-3-13/68/138-512.png" alt="Quality Icon">
+                    <span>Top Quality</span>
+                </div>
+            </div>
+
+            <!-- Contact Button -->
+            <a href="Free-Estimate.html" class="contact-button">Get a Free Estimate</a>
+        </div>
+    </section>
+
+<body5>
+<section class="video-section1">
+        <div class="text-content1">
+            <h2>Experience Professional Tree Services</h2>
+            <p>Watch our team in action as we provide expert tree removal, trimming, and landscaping services. Our professional approach ensures safety, efficiency, and quality for your property.</p>
+            <a href="Free-Estimate.html" class="cta-button1">Free Estimate</a>
+        </div>
+        <div class="video-container1">
+            <iframe src="https://www.youtube.com/embed/9HR7q7piD9k" allowfullscreen></iframe>
+        </div>
+    </section>
+</body5>
+
+
+
+    <body1>
+
+      <section class="gallery-section">
+        <h2>Black Bear Tree Services Gallery</h2>
+        <div class="gallery-container">
+            <div class="slider">
+                <div class="slide">
+                    <img src="https://i.ibb.co/Y0mz9Nc/IMG-8195.jpg" alt="Image 1">
+                </div>
+                <div class="slide">
+                    <img src="https://i.ibb.co/PCBVSJV/IMG-9723.jpg" alt="Image 2">
+                </div>
+                <div class="slide">
+                    <img src="https://i.ibb.co/c3ZbMBH/IMG-6231.jpg" alt="Image 3">
+                </div>
+                <div class="slide">
+                    <img src="https://i.ibb.co/rfPnK58/IMG-0643.jpg" alt="Image 4">
+                </div>
+                <div class="slide">
+                    <img src="https://i.ibb.co/RQ2rxFj/IMG-9720.jpg" alt="Image 5">
+                </div>
+                <div class="slide">
+                    <img src="https://i.ibb.co/qp3qwGg/IMG-5523.jpg" alt="Image 6">
+                </div>
+                <div class="slide">
+                    <img src="https://i.ibb.co/bKv6vbG/IMG-6454.jpg" alt="Image 7">
+                </div>
+                <div class="slide">
+                    <img src="https://i.ibb.co/17ddY6j/IMG-5332.jpg" alt="Image 8">
+                </div>
+                <div class="slide">
+                    <img src="https://i.ibb.co/TrFT07S/IMG-0229.jpg" alt="Image 9">
+                </div>
+            </div>
+
+            <div class="navigation">
+                <button class="nav-button" id="prevBtn">&#10094;</button>
+                <button class="nav-button" id="nextBtn">&#10095;</button>
+            </div>
+
+            <div class="dots">
+                <div class="dot" data-index="0"></div>
+                <div class="dot" data-index="1"></div>
+                <div class="dot" data-index="2"></div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const slider = document.querySelector('.slider');
+        const slides = document.querySelectorAll('.slide');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const dots = document.querySelectorAll('.dot');
+
+        let currentIndex = 0;
+        const totalSlides = Math.ceil(slides.length / 3); // Adjust for multiple slides shown at once
+
+        function updateSlider() {
+            slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+            dots.forEach(dot => dot.classList.remove('active'));
+            if (dots[currentIndex]) {
+                dots[currentIndex].classList.add('active');
+            }
+        }
+
+        function showNextSlide() {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            updateSlider();
+        }
+
+        function showPrevSlide() {
+            currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+            updateSlider();
+        }
+
+        nextBtn.addEventListener('click', showNextSlide);
+        prevBtn.addEventListener('click', showPrevSlide);
+
+        dots.forEach(dot => {
+            dot.addEventListener('click', (e) => {
+                currentIndex = parseInt(e.target.getAttribute('data-index'));
+                updateSlider();
+            });
+        });
+
+        // Auto-slide functionality
+        setInterval(showNextSlide, 5000);
+
+        // Initial state
+        updateSlider();
+    </script>
+</body1>
+
+
+
+    <section class="review-section">
+        <div class="review-card">
+            <h3>Benigno Lopez</h3>
+            <div class="stars">
+                <span>★★★★★</span>
+            </div>
+            <p>They did such a fantastic job, everything done professionally.  Left everything clean and organized.  Also the best value by far of all the places I contacted.  Already recommended them to friends and family.</p>
+        </div>
+
+        <div class="review-card">
+            <h3>Gary Dana</h3>
+            <div class="stars">
+                <span>★★★★★</span>
+            </div>
+            <p>Very friendly people that knows how to get a job done right.  A true pleasure to work with.</p>
+        </div>
+
+        <div class="review-card">
+            <h3>William Weiss</h3>
+            <div class="stars">
+                <span>★★★★★</span>
+            </div>
+            <p>Helped get the tree limbs trimmed and helped clean the yard really great landscaping crew!</p>
+        </div>
+
+        <div class="review-card">
+            <h3>Roopa Regi Daniel</h3>
+            <div class="stars">
+                <span>★★★★★</span>
+            </div>
+            <p>Amazing and clean service for reasonable price . I recommend.</p>
+        </div>
+
+        <div class="review-card">
+            <h3>Chris Caliciotti</h3>
+            <div class="stars">
+                <span>★★★★★</span>
+            </div>
+            <p>Great tree service would definitely use them again highly recommend them.</p>
+        </div>
+
+        <div class="review-card">
+            <h3>Enrique Martinez</h3>
+            <div class="stars">
+                <span>★★★★★</span>
+            </div>
+            <p>Excellent service and very professional</p>
+        </div>
+    </section>
+        <div class="contact-section">
+        <h2>Contact Us</h2>
+        <form action="/submit-form" method="POST">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Write your message" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+        <div class="contact-info">
+            <p>Email: eusebio@blackbeartreeservices.com</p>
+            <p>Phone: +1 (551) 804-7603</p>
+        </div>
+    </div>
+
+<section class="map-section">
+        <h2>Our Location: Bergen County</h2>
+        <p>Find us in the heart of Bergen County. See the map below for more details.</p>
+        
+        <!-- Map of Bergen County -->
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193141.70332618302!2d-74.17527505558541!3d40.95846593025961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f9debc92f155%3A0x8b48fe1f5cb58fdd!2sBergen%20County%2C%20NJ!5e0!3m2!1sen!2sus!4v1692114691581!5m2!1sen!2sus"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+
+    <script>
+        // Form submission handling with validation
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();  // Prevent form submission to show response message
+            
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var phone = document.getElementById('phone').value;
+            var message = document.getElementById('message').value;
+            
+            if (name && email && phone && message) {
+                document.getElementById('formResponse').innerHTML = '<p class="form-message">Thank you for contacting us, ' + name + '! We will get back to you soon.</p>';
+                document.getElementById('contactForm').reset();  // Reset the form after submission
+            } else {
+                document.getElementById('formResponse').innerHTML = '<p class="error-message">Please fill out all fields before submitting the form.</p>';
+            }
+        });
+    </script>
+
+
+<footer style="background: rgba(0, 0, 0, 0.9); color: white; text-align: center; padding: 20px; font-size: 14px;">
+        <p>&copy; 2024 Black Bear Tree Service. All rights reserved.</p>
+        <p>
+            <a href="Privacy-Policy.html" style="color: lightgray; text-decoration: none; margin: 0 10px;">Privacy Policy</a>
+            |
+            <a href="mailto:eusebio@blackbeartreeservices.com" style="color: lightgray; text-decoration: none; margin: 0 10px;">Email: eusebio@blackbeartreeservices.com</a>
+            |
+            <span>Phone: (551) 804-7603</span>
+        </p>
+        <p>
+            <a href="https://www.facebook.com/profile.php?id=61557387519278" target="_blank" style="color: lightgray; text-decoration: none; margin: 0 10px;">Facebook</a>
+            |
+            <a href="https://www.instagram.com/blackbeartreeservices/" target="_blank" style="color: lightgray; text-decoration: none; margin: 0 10px;">Instagram</a>
+        </p>
+    </footer>
+
+</body>
+</html>
+
