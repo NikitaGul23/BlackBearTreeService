@@ -1,0 +1,298 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+
+       /* Hero Section */
+.hero-section {
+    background: url('https://i.ibb.co/cbz5WSd/IMG-0201.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.hero-content {
+    z-index: 1;
+    animation: fadeInDown 1.5s ease-out forwards, pulse 5s infinite;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    animation: slideInLeft 1.5s ease-out;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    animation: slideInRight 1.5s ease-out;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: #ff570c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, transform 0.3s;
+    animation: bounceIn 2s ease-out;
+}
+
+.hero-button:hover {
+    background-color: #e64a0a;
+    transform: scale(1.1);
+}
+
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .gallery-item {
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .gallery-item .caption {
+            position: absolute;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 0.5rem 0;
+            font-size: 1.2rem;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .gallery-item:hover .caption {
+            opacity: 1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Centered Navigation */
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        /* Navigation Menu */
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav ul li {
+            position: relative;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 10px;
+            transition: color 0.3s;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav ul li a:hover {
+            color: #ffffff
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        /* Dropdown Menu */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #FF570C;
+            min-width: 150px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            z-index: 1;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 10px 15px;
+            display: block;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #FF7A5C;
+        }
+
+        /* Show dropdown on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+/* Header and Navigation Styling */
+        header4 {
+            background-color: #FF570C;
+            padding: 20px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+     <section class="hero-section">
+        <div class="hero-content">
+            <h1>Gallery</h1>
+            <p>Black Bear Tree Services</p>
+            <a href="#services" class="hero-button">Learn More</a>
+        </div>
+    </section>
+
+    <header4>
+        <div class="nav-container">
+            <div class="content-right">
+            <!-- Centered Navigation Links -->
+            <nav>
+                <ul>
+                    <li><a href="nov13-8-23pm.html">Home</a></li>
+                    <li><a href="About-Us.html">About Us</a></li>
+                     <!-- Services Dropdown -->
+                    <li class="dropdown">
+                        <a href="#services">Services</a>
+                        <div class="dropdown-content">
+                            <a href="tree-Removal.html">Tree Removal</a>
+                            <a href="Tree-Trimming.html">Tree Trimming</a>
+                            <a href="Stump-Grinding.html">Stump Grinding</a>
+                            <a href="Emergency.html">Emergency Storm Damage</a>
+                            <a href="firewood.html">FireWood</a>
+                            <a href="Snow-removal.html">Snow Removal</a>
+                            <a href="Landscaping.html">LandScaping Service</a>
+                        </div>
+                    </li> 
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header4>
+
+    <section class="gallery">
+        <div class="gallery-item">
+            <img src="https://i.ibb.co/3hKF36v/IMG-0372.jpg" alt="Tree 1">
+            <div class="caption">Majestic Oak</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://i.ibb.co/QY4W5Xn/IMG-0377.jpg" alt="Tree 2">
+            <div class="caption">Cherry Blossom</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://i.ibb.co/ZKhPxx2/IMG-0342.jpg" alt="Tree 3">
+            <div class="caption">Pine Forest</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://i.ibb.co/Q6hX05h/IMG-0316.jpg" alt="Tree 4">
+            <div class="caption">Ancient Baobab</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://i.ibb.co/J7s5DTC/IMG-0231.jpg" alt="Tree 5">
+            <div class="caption">Autumn Maple</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://i.ibb.co/2nnhtwf/IMG-0643.jpg" alt="Tree 6">
+            <div class="caption">Tropical Palm</div>
+        </div>
+         <div class="gallery-item">
+            <img src="https://i.ibb.co/WzST8DS/IMG-0355.jpg" alt="Tree 7">
+            <div class="caption">Tropical Palm</div>
+        </div>
+         <div class="gallery-item">
+            <img src="https://i.ibb.co/2nnhtwf/IMG-0643.jpg" alt="Tree 8">
+            <div class="caption">Tropical Palm</div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Tree Gallery. All rights reserved.
+    </footer>
+</body>
+</html>
