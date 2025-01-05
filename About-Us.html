@@ -1,0 +1,444 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about-us.css">
+    <style>
+        /* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+ body {
+            font-family: 'Poppins', sans-serif;    }
+        h1{
+            font-family: 'Poppins', sans-serif;
+        }
+        h2{
+            font-family: 'Poppins', sans-serif;
+        }
+        h3{
+            font-family: 'Poppins', sans-serif;
+        }
+        p {
+            font-family: 'Poppins', sans-serif;
+        }
+
+
+        body1 {
+            font-family: 'Poppins', sans-serif;    }
+        h1 {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body2 {
+            font-family: 'Poppins', sans-serif;    }
+        p {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Poppins', sans-serif;
+        }
+ 
+/* Hero Section */
+.hero-section {
+    background: url('https://i.ibb.co/286y2rZ/IMG-7991.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.hero-content {
+    z-index: 1;
+    animation: fadeInDown 1.5s ease-out forwards, pulse 5s infinite;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    animation: slideInLeft 1.5s ease-out;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    animation: slideInRight 1.5s ease-out;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: #FF570C;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, transform 0.3s;
+    animation: bounceIn 2s ease-out;
+}
+
+.hero-button:hover {
+    background-color: #218838;
+    transform: scale(1.1);
+}
+
+/* Content Section */
+.content-section {
+    padding: 50px 5vw;
+}
+
+.about-intro {
+    text-align: center;
+    margin-bottom: 40px;
+    animation: fadeIn 2s forwards;
+}
+
+.about-intro h2 {
+    font-size: 30px;
+    color: #FF570C;
+    margin-bottom: 10px;
+}
+
+.about-intro p {
+    font-size: 24px;
+    color: #000000;
+}
+
+/* Image and Text Section */
+.image-text-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    animation: slideIn 2s forwards;
+}
+
+.image-text-section img {
+    width: 45%;
+    border-radius: 15px;
+    margin-right: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, filter 0.4s;
+}
+
+.image-text-section img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.text-block {
+    flex: 1;
+    padding: 15px;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+.text-block h3 {
+    font-size: 23px;
+    color: #FF570C;
+    margin-bottom: 10px;
+}
+
+.text-block p {
+    font-size: 20px;
+    color: #000000;
+}
+
+/* Reverse Flex for Alternate Layout */
+.image-text-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.image-text-section.reverse img {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+/* Call-to-Action */
+.call-to-action {
+    text-align: center;
+    padding: 20px;
+    background-color: #FF570C;
+    border-radius: 15px;
+    animation: fadeIn 2s forwards, 3s infinite alternate;
+}
+
+.call-to-action h2 {
+    font-size: 2.2rem;
+    color: #000000;
+    margin-bottom: 10px;
+    animation: slideInLeft 1.5s ease;
+}
+
+.call-to-action p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FF8835;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, transform 0.3s;
+    animation: pulse 2s infinite;
+}
+
+.cta-button:hover {
+    background-color: #FFA567;
+    transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceIn {
+    0%, 20%, 40%, 60%, 80%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #28a745;
+    }
+    to {
+        text-shadow: 0 0 20px #218838;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+/* Centered Navigation */
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        /* Navigation Menu */
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 10px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffffff
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        /* Dropdown Menu */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #FF570C;
+            min-width: 150px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 10px 15px;
+            display: block;
+            text-decoration: none;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #FF7A5C;
+        }
+
+        /* Show dropdown on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        /* Header and Navigation Styling */
+        header4 {
+            background-color: #FF570C;
+            padding: 20px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>About Us</h1>
+            <p>Meet the team dedicated to providing exceptional service and expertise.</p>
+            <a href="#our-story" class="hero-button">Learn More</a>
+        </div>
+    </section>
+<header4>
+        <div class="nav-container">
+            <div class="content-right">
+            <!-- Centered Navigation Links -->
+            <nav>
+                <ul>
+                    <li><a href="nov13-8-23pm.html">Home</a></li>
+                    <li><a href="About-Us.html">About Us</a></li>
+                     <!-- Services Dropdown -->
+                    <li class="dropdown">
+                        <a href="#services">Services</a>
+                        <div class="dropdown-content">
+                            <a href="tree-Removal.html">Tree Removal</a>
+                            <a href="Tree-Trimming.html">Tree Trimming</a>
+                            <a href="Stump-Grinding.html">Stump Grinding</a>
+                            <a href="Emergency.html">Emergency Storm Damage</a>
+                            <a href="firewood.html">FireWood</a>
+                            <a href="Snow-removal.html">Snow Removal</a>
+                            <a href="Landscaping.html">LandScaping Service</a>
+                        </div>
+                    </li> 
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header4>
+    <section id="our-story" class="content-section">
+        <div class="about-intro">
+            <h2>Our Story</h2>
+            <p>Our journey began with a passion for excellence and a dedication to service. With years of experience, we have grown into a trusted team that values professionalism, integrity, and customer satisfaction.</p>
+        </div>
+
+        <div class="image-text-section">
+            <img src="https://i.ibb.co/17ddY6j/IMG-5332.jpg" alt="Our Team">
+            <div class="text-block">
+                <h3>Our Team</h3>
+                <p>Our team is composed of skilled and enthusiastic professionals who are committed to delivering the best results. We believe in continuous learning, teamwork, and maintaining a positive, supportive work environment.</p>
+            </div>
+        </div>
+
+        <div class="image-text-section reverse">
+            <img src="https://i.ibb.co/bKv6vbG/IMG-6454.jpg" alt="Our Values">
+            <div class="text-block">
+                <h3>Our Values</h3>
+                <p>We uphold the values of integrity, trust, and respect. These principles guide our work and ensure we build long-lasting relationships with our clients and community.</p>
+            </div>
+        </div>
+
+        <div class="image-text-section">
+            <img src="https://www.traversotree.com/wp-content/uploads/2021/01/Front-scaled.jpg" alt="Community Service">
+            <div class="text-block">
+                <h3>Community Involvement</h3>
+                <p>We take pride in giving back to the community. Our team actively participates in local events, volunteering efforts, and charitable initiatives that make a positive impact.</p>
+            </div>
+        </div>
+
+        <div class="call-to-action">
+            <h2>Want to Learn More?</h2>
+            <p>Get in touch to find out more about our journey, our team, and how we can help you achieve your goals.</p>
+            <a href="Free-Estimate.html" class="cta-button">Free Estimate</a>
+        </div>
+    </section>
+</body>
+</html>
