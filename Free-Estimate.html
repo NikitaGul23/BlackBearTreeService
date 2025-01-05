@@ -1,0 +1,292 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Estimate</title>
+    <link rel="stylesheet" href="free-estimate.css">
+
+    <style>
+            /* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('https://i.ibb.co/0FTQ1J8/IMG-9721.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.hero-content {
+    z-index: 1;
+    animation: fadeInDown 1.5s ease-out forwards;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+}
+
+/* Form Section */
+.form-section {
+    padding: 40px 5vw;
+    background-color: #ffffff;
+}
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #FF570C;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1.5s ease-out;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #000000;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    background-color: #FF8835;
+    color: #fff;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #FFA567;
+    transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Centered Navigation */
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        /* Navigation Menu */
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 10px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffffff
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        /* Dropdown Menu */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #FF570C;
+            min-width: 150px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 10px 15px;
+            display: block;
+            text-decoration: none;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #FF7A5C;
+        }
+
+        /* Show dropdown on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        /* Header and Navigation Styling */
+        header4 {
+            background-color: #FF570C;
+            padding: 20px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Get Your Free Estimate</h1>
+            <p>Fill out the form below to request a free estimate for any of our services.</p>
+        </div>
+    </section>
+<header4>
+        <div class="nav-container">
+            <div class="content-right">
+            <!-- Centered Navigation Links -->
+            <nav>
+                <ul>
+                    <li><a href="nov13-8-23pm.html">Home</a></li>
+                    <li><a href="About-Us.html">About Us</a></li>
+                     <!-- Services Dropdown -->
+                    <li class="dropdown">
+                        <a href="#services">Services</a>
+                        <div class="dropdown-content">
+                            <a href="tree-Removal.html">Tree Removal</a>
+                            <a href="Tree-Trimming.html">Tree Trimming</a>
+                            <a href="Stump-Grinding.html">Stump Grinding</a>
+                            <a href="Emergency.html">Emergency Storm Damage</a>
+                            <a href="firewood.html">FireWood</a>
+                            <a href="Snow-removal.html">Snow Removal</a>
+                            <a href="Landscaping.html">LandScaping Service</a>
+                        </div>
+                    </li> 
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header4>
+    <section id="estimate-form" class="form-section">
+        <div class="form-container">
+            <h2>Request a Free Estimate</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Select a Service:</label>
+                    <select id="service" name="service" required>
+                        <option value="">--Select a Service--</option>
+                        <option value="tree-removal">Tree Removal</option>
+                        <option value="tree-trimming">Tree Trimming</option>
+                        <option value="stump-grinding">Stump Grinding</option>
+                        <option value="emergency-storm-damage">Emergency Storm Damage</option>
+                        <option value="firewood">Firewood Services</option>
+                        <option value="snow-removal">Snow Removal</option>
+                        <option value="landscaping">Landscaping Services</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" placeholder="Leave a message or describe your request" rows="5"></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit Request</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
